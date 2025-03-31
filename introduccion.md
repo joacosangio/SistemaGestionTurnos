@@ -127,4 +127,9 @@ A continuación, se detallan 5 casos de uso para este proyecto
       4. Se genera un aviso de que el médico y paciente fueron notificados.
 
 ***
+## Boceto
 
+A continuación, se muestra un boceto de algunas clases que podrian ser esenciales para el sistema, junto con sus atributos y algunos métodos que podrian tener los objetos.
+
+![image](https://github.com/user-attachments/assets/46827532-dfd1-4aca-a75a-f82158019fd5)
+***
