@@ -32,7 +32,7 @@ Los principales requisitos para que el sistema funcione son los siguientes:
 
 A continuación, se detallan 5 casos de uso para este proyecto
 
-1. Condición de uso 1
+1. Caso de uso 1
    * **Nombre de la condición:** Registrar usuario.
    * **Actor(es) involucrado(s):** Una persona que quiera utilizar el sistema y deba crear un usuario para hacerlo.
    * **Descripción breve:** Permite que el usuario se registre en el software, concediendole un usuario el cual puede utilizar para agendar sus citas, ver sus turnos y utilizar el software en general.
@@ -48,7 +48,7 @@ A continuación, se detallan 5 casos de uso para este proyecto
       1. Se crea el usuario en la base de datos.
       2. Se habilita el usuario en la plataforma para que se le puedan asignar turnos y otras acciones.
     
-2. Condición de uso 2
+2. Caso de uso 2
    * **Nombre de la condición:** Asignar turno.
    * **Actor(es) involucrado(s):** Usuario o recepcionista.
    * **Descripción breve:** Permite que el usuario o el/la recepcionista asigne un turno con un profesional de la salud del establecimiento que esté disponible para una consulta.
@@ -69,7 +69,7 @@ A continuación, se detallan 5 casos de uso para este proyecto
       2. Se bloquea la agenda del médico en el horario del turno.
       3. Se notifica al cliente y al médico.
     
-3. Condición de uso 3
+3. Caso de uso 3
    * **Nombre de la condición:** Modificar turno
    * **Actor(es) involucrado(s):** Recepcionista.
    * **Descripción breve:** Permite que el/la recepcionista modifique un turno previamente creado y asignado
@@ -87,7 +87,7 @@ A continuación, se detallan 5 casos de uso para este proyecto
       1. Se modifica el turno en la base de datos.
       2. Se alerta al paciente y al médico que la información del turno fue modificada.
     
-4. Condición de uso 4
+4. Caso de uso 4
    * **Nombre de la condición:** Cancelación de turno
    * **Actor(es) involucrado(s):** Recepcionista o usuario.
    * **Descripción breve:** Permite que el/la recepcionista o el usuario cancele un turno previamente creado y asignado
@@ -95,15 +95,36 @@ A continuación, se detallan 5 casos de uso para este proyecto
       1. El usuario o El o la recepcionista ingresa al software.
       2. Se accede al turno.
       3. Se cancela el turno añadiendo el motivo de la cancelación.
-      4. El sistema modifica la agenda del médioc eliminando el turno para que vuelva a estar disponible esa franja horaria.
+      4. El sistema modifica la agenda del médico eliminando el turno para que vuelva a estar disponible esa franja horaria.
       5. Se notifica al paciente y al médico que el turno fue cancelado.
    * **Precondiciones:**
       1. Debe haber un turno registrado en el sistema.
       2. El turno debe estar asignado al usuario y al médico.
       3. Debe ser realizado por alguien autorizado a cancelar los turnos.
    * **Postcondiciones:**
-      1. Se elimina el turno de la base de datos.
+      1. Se elimina el turno de la base de datos, dejando como cancelado.
       2. Se alerta al paciente y al médico que el turno fue cancelado.
       3. Se libera el espacio en la agenda del médico.
-      4. Queda la elimincaión del turno en el historial del paciente.
+      4. Queda la cancelación del turno en el historial del paciente.
+    
+5. Caso de uso 5
+   * **Nombre de la condición:** Envio de notificaciones.
+   * **Actor(es) involucrado(s):** Sistema.
+   * **Descripción breve:** El sistema envia notificaciones a médicos y pacientes cuando un turno es confirmado, cancelado o modificado.
+   * **Flujo principal de eventos:**
+      1. Se crea, cancela o modifica un turno en el sistema.
+      2. Se detecta que cambio fue el que se realizó.
+      3. Se genera una notificación con toda la información que corresponda.
+      4. Se envia la notificación al paciente y médico correspondiente.
+   * **Precondiciones:**
+      1. Debe haber un turno registrado en el sistema.
+      2. El médico y paciente deben tener configurado un método de notificaciones valido (Email, telefono, etc.)
+      3. El turno registrado en el sistema debe sufrir un cambio que requiera de notificación.
+   * **Postcondiciones:**
+      1. Se modifica la información del turno en el sistmea.
+      2. Queda un registro de que ese turno fue modificado.
+      3. Llega una notificacioón al paciente o médico.
+      4. Se genera un aviso de que el médico y paciente fueron notificados.
+
+***
 
