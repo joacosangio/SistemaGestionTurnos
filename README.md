@@ -13,7 +13,6 @@
 **Año:** 1°
 ***
 
-
 ## Introducción
 
 En este repositorio se desarrollará un proyecto de un sistema de software para gestionar turnos en un pequeño centro de salud. El cual, está buscando digitalizar su sistema de gestión de turnos físico. Ya que, tenerlo físico está ocasionando que se pierdan citas, que los doctores no sepan si se cancelan los turnos, que los pacientes no reciban las notificaciones de cancelación o aceptación de turnos y demás inconvenientes que se generan en el día a día.
@@ -23,4 +22,4 @@ Este proyecto se está realizando en la carrera de **Tecnicatura de Programació
 
 ## Diagramas y Diseños
 
-* 
+* [Anexos](anexos.md)
