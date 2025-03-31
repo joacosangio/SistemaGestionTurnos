@@ -35,5 +35,75 @@ A continuación, se detallan 5 casos de uso para este proyecto
 1. Condición de uso 1
    * **Nombre de la condición:** Registrar usuario.
    * **Actor(es) involucrado(s):** Una persona que quiera utilizar el sistema y deba crear un usuario para hacerlo.
-   * **Descripción breve:** 
+   * **Descripción breve:** Permite que el usuario se registre en el software, concediendole un usuario el cual puede utilizar para agendar sus citas, ver sus turnos y utilizar el software en general.
+   * **Flujo principal de eventos:**
+      1. El usuario ingresa a la plataforma.
+      2. El usuario comienza el proceso de registro de usuario.
+      3. El usuario completa toda la información que se le pide.
+      4. Se le notifica al usuario que su usuario ha sido creado con exito.
+   * **Precondiciones:**
+      1. El usuario no debe estar registrado previamente.
+      2. El usuario debe proporcionar la información obligatoria para que se realice el proceso correctamente (Username, Password e información de contacto).
+   * **Postcondiciones:**
+      1. Se crea el usuario en la base de datos.
+      2. Se habilita el usuario en la plataforma para que se le puedan asignar turnos y otras acciones.
+    
+2. Condición de uso 2
+   * **Nombre de la condición:** Asignar turno.
+   * **Actor(es) involucrado(s):** Usuario o recepcionista.
+   * **Descripción breve:** Permite que el usuario o el/la recepcionista asigne un turno con un profesional de la salud del establecimiento que esté disponible para una consulta.
+   * **Flujo principal de eventos:**
+      1. El usuario o recepcionista ingresa a la plataforma.
+      2. Selecciona la opción de asignar nuevo turno.
+      3. Se ingresan los datos del paciente.
+      4. Se selecciona la especialidad o profesional de la salud.
+      5. Se muestran los horarios disponibles del médico.
+      6. Se selecciona el horario y se confirma la operación.
+      7. Se envia una notificación al usuario y al médico.
+   * **Precondiciones:**
+      1. El usuario debe estar registrado previamente.
+      2. El médico debe tener su usuario registrado en el sistema.
+      3. El médico debe tener su agenda actualizada.
+   * **Postcondiciones:**
+      1. Se genera el turno en la base de datos.
+      2. Se bloquea la agenda del médico en el horario del turno.
+      3. Se notifica al cliente y al médico.
+    
+3. Condición de uso 3
+   * **Nombre de la condición:** Modificar turno
+   * **Actor(es) involucrado(s):** Recepcionista.
+   * **Descripción breve:** Permite que el/la recepcionista modifique un turno previamente creado y asignado
+   * **Flujo principal de eventos:**
+      1. El o la recepcionista ingresa al software.
+      2. Busca en el sistema el turno correspondiente.
+      3. Verifica que la modificacioón no genere inconvenientes en el calendario del médico.
+      4. Se realiza la modificación y se guarda en el sistema.
+      5. Le llega la notificación al médico y al paciente de que se modificó el turno.
+   * **Precondiciones:**
+      1. Debe haber un turno registrado en el sistema.
+      2. El turno debe estar asignado al usuario y al médico.
+      3. Debe ser realizado por alguien autorizado a modificar los turnos.
+   * **Postcondiciones:**
+      1. Se modifica el turno en la base de datos.
+      2. Se alerta al paciente y al médico que la información del turno fue modificada.
+    
+4. Condición de uso 4
+   * **Nombre de la condición:** Cancelación de turno
+   * **Actor(es) involucrado(s):** Recepcionista o usuario.
+   * **Descripción breve:** Permite que el/la recepcionista o el usuario cancele un turno previamente creado y asignado
+   * **Flujo principal de eventos:**
+      1. El usuario o El o la recepcionista ingresa al software.
+      2. Se accede al turno.
+      3. Se cancela el turno añadiendo el motivo de la cancelación.
+      4. El sistema modifica la agenda del médioc eliminando el turno para que vuelva a estar disponible esa franja horaria.
+      5. Se notifica al paciente y al médico que el turno fue cancelado.
+   * **Precondiciones:**
+      1. Debe haber un turno registrado en el sistema.
+      2. El turno debe estar asignado al usuario y al médico.
+      3. Debe ser realizado por alguien autorizado a cancelar los turnos.
+   * **Postcondiciones:**
+      1. Se elimina el turno de la base de datos.
+      2. Se alerta al paciente y al médico que el turno fue cancelado.
+      3. Se libera el espacio en la agenda del médico.
+      4. Queda la elimincaión del turno en el historial del paciente.
 
