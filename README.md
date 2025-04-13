@@ -8,7 +8,7 @@
 
 **Carrera:** Tecnicatura de Programación en Sistemas.
 
-**Profesor/a:** Matias Velazquez.
+**Profesor/a:** Matias Velasquez.
 
 **Año:** 1°
 ***
