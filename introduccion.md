@@ -33,7 +33,7 @@ Los principales requisitos para que el sistema funcione son los siguientes:
 A continuación, se detallan 5 casos de uso para este proyecto
 
 1. Caso de uso 1
-   * **Nombre de la condición:** Registrar usuario.
+   * **Nombre de la condición:** Registrar paciente.
    * **Actor(es) involucrado(s):** Una persona que quiera utilizar el sistema y deba crear un usuario para hacerlo.
    * **Descripción breve:** Permite que el usuario se registre en el software, concediendole un usuario el cual puede utilizar para agendar sus citas, ver sus turnos y utilizar el software en general.
    * **Flujo principal de eventos:**
@@ -50,10 +50,10 @@ A continuación, se detallan 5 casos de uso para este proyecto
     
 2. Caso de uso 2
    * **Nombre de la condición:** Asignar turno.
-   * **Actor(es) involucrado(s):** Usuario o recepcionista.
-   * **Descripción breve:** Permite que el usuario o el/la recepcionista asigne un turno con un profesional de la salud del establecimiento que esté disponible para una consulta.
+   * **Actor(es) involucrado(s):** Paciente o recepcionista.
+   * **Descripción breve:** Permite que el paciente o el/la recepcionista asigne un turno con un profesional de la salud del establecimiento que esté disponible para una consulta.
    * **Flujo principal de eventos:**
-      1. El usuario o recepcionista ingresa a la plataforma.
+      1. El paciente o recepcionista ingresa a la plataforma.
       2. Selecciona la opción de asignar nuevo turno.
       3. Se ingresan los datos del paciente.
       4. Se selecciona la especialidad o profesional de la salud.
@@ -89,10 +89,10 @@ A continuación, se detallan 5 casos de uso para este proyecto
     
 4. Caso de uso 4
    * **Nombre de la condición:** Cancelación de turno
-   * **Actor(es) involucrado(s):** Recepcionista o usuario.
+   * **Actor(es) involucrado(s):** Recepcionista o paciente.
    * **Descripción breve:** Permite que el/la recepcionista o el usuario cancele un turno previamente creado y asignado
    * **Flujo principal de eventos:**
-      1. El usuario o El o la recepcionista ingresa al software.
+      1. El paciente o El o la recepcionista ingresa al software.
       2. Se accede al turno.
       3. Se cancela el turno añadiendo el motivo de la cancelación.
       4. El sistema modifica la agenda del médico eliminando el turno para que vuelva a estar disponible esa franja horaria.
