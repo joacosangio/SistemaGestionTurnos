@@ -134,6 +134,6 @@ A continuación, se muestra un boceto de algunas clases que podrian ser esencial
 ![image](https://github.com/user-attachments/assets/7aee5bd9-e7a8-4c96-997d-c9056b408a74)
 
 Adjunto archivo para la importación en UMLetino, ya que, la herramienta no guarda información mediante un link
-* [Archivo .UXF para la importación](DiagramadeClases.uxf)
+* [Archivo .UXF para la importación](boceto_diagrama_de_clases.uxf)
 
 ***
