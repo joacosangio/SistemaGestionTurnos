@@ -132,4 +132,8 @@ A continuación, se detallan 5 casos de uso para este proyecto
 A continuación, se muestra un boceto de algunas clases que podrian ser esenciales para el sistema, junto con sus atributos y algunos métodos que podrian tener los objetos.
 
 ![image](https://github.com/user-attachments/assets/7aee5bd9-e7a8-4c96-997d-c9056b408a74)
+
+Adjunto archivo para la importación en UMLetino, ya que, la herramienta no guarda información mediante un link
+* [Archivo .UXF para la importación](DiagramadeClases.uxf)
+
 ***
