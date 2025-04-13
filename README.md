@@ -23,3 +23,5 @@ Este proyecto se está realizando en la carrera de **Tecnicatura de Programació
 ## Diagramas y Diseños
 
 * [Anexos](anexos.md)
+* [Diagramas UML](diagramasUML.md)
+* [Herramientas Agile](herramientas_agile.md)
