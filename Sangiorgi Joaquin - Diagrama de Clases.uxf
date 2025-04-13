@@ -1,0 +1,54 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLClass</id><coordinates><x>170</x><y>180</y><w>350</w><h>190</h></coordinates><panel_attributes>Clase: Paciente
+
+Esta clase contendra e instanciará los usuarios del sistema
+--
+- nombre: String
+- apellido: String
+- correo: String
+- telefono: String
+- direccion: String
+--
++ iniciarSesion()
++ solicitarTurno()
++ visualizarTurnos()
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>560</x><y>180</y><w>420</w><h>190</h></coordinates><panel_attributes>Clase: Médico
+Esta clase contendrá a los médicos que atienden en el centro de salud
+--
+- nombre: String
+- apellido: String
+- dni: String
+- matricula: String
+--
++ cancelarTurno()
++ bloquearCalendario()
++ visualizarCalendario()
++ visualizarPacientesAsignados()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>400</y><w>520</w><h>160</h></coordinates><panel_attributes>Clase: Recepcionista
+Esta clase representará a los usuarios que trabajan como recepcionistas y gestionan turnos
+--
+- nombre: String
+- apellido: String
+- correo: String
+- telefono: String
+--
++ asignarTurno()
++ consultarTurno()
++ consultarCalendario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>720</x><y>400</y><w>410</w><h>170</h></coordinates><panel_attributes>Clase: Turno
+Esta clase instanciará los turnos médicos que se registren en el sistema
+--
+- fecha: Date
+- horario: String
+- estado: String
+- medicoAsignado: Medico
+- usuarioAsignado: Usuario
+--
++ asignarMedico()
++ asignarUsuario()
++ consultarCalendario()</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>170</x><y>580</y><w>440</w><h>130</h></coordinates><panel_attributes>Clase: Calendario
+Esta clase contendrá el calendario de turnos vinculados a médicos y usuarios
+--
+- medico: Medico
+- usuario: Usuario
+--
++ consultarTurno()
++ consultarUsuario()
++ consultarMedico()</panel_attributes><additional_attributes></additional_attributes></element></diagram>
