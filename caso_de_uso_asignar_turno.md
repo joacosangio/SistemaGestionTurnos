@@ -4,4 +4,4 @@
 
 
 Adjunto archivo para la importación en UMLetino, ya que, la herramienta no guarda información mediante un link
-* [Archivo .UXF para la importación]()
+* [Archivo .UXF para la importación](asignar_turno.uxf)
