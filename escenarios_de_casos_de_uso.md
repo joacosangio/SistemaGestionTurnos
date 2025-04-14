@@ -1,8 +1,8 @@
-# Escemarios de Casos de Uso
+# Escenarios de Casos de Uso
 
 * [Caso de Uso 1 - Escenario de Caso de Uso Registrar Paciente](https://ucesvirtual-my.sharepoint.com/:x:/r/personal/joaquin_sangiorgi_comunidad_uces_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7B0934A969-9131-4CFF-B625-5A1E8B7448AC%7D&file=Libro.xlsx&action=editnew&mobileredirect=true&wdNewAndOpenCt=1744606307601&ct=1744606308643&wdOrigin=OFFICECOM-WEB.START.NEW&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=440abb56-4398-45cb-bf30-a078faf5d896&cid=7165b4b0-8ac8-4494-aac1-c318188a5c65)
-* [Escenario de Caso de Uso]()
-* [Escenario de Caso de Uso]()
-* [Escenario de Caso de Uso]()
-* [Escenario de Caso de Uso]()
+* [Caso de Uso 2 - Escenario de Caso de Uso Asignar Turno](https://ucesvirtual-my.sharepoint.com/:x:/r/personal/joaquin_sangiorgi_comunidad_uces_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7B0934A969-9131-4CFF-B625-5A1E8B7448AC%7D&file=Sangiorgi_Joaquin_Escenarios_de_Casos_de_Uso.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1744670632766&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=e11bd710-0bce-4645-8fc4-0fd0a6d1dc5b&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=317cd534-18d4-44a6-be24-b77b62035a0a)
+* [Caso de Uso 3 - Escenario de Caso de Uso Cancelar Turno](https://ucesvirtual-my.sharepoint.com/:x:/r/personal/joaquin_sangiorgi_comunidad_uces_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7B0934A969-9131-4CFF-B625-5A1E8B7448AC%7D&file=Sangiorgi_Joaquin_Escenarios_de_Casos_de_Uso.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1744670632766&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=e11bd710-0bce-4645-8fc4-0fd0a6d1dc5b&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=317cd534-18d4-44a6-be24-b77b62035a0a)
+* [Caso de Uso 4 - Escenario de Caso de Uso Modificar Turno](https://ucesvirtual-my.sharepoint.com/:x:/r/personal/joaquin_sangiorgi_comunidad_uces_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7B0934A969-9131-4CFF-B625-5A1E8B7448AC%7D&file=Sangiorgi_Joaquin_Escenarios_de_Casos_de_Uso.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1744670632766&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=e11bd710-0bce-4645-8fc4-0fd0a6d1dc5b&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=317cd534-18d4-44a6-be24-b77b62035a0a)
+* [Caso de Uso 5 - Escenario de Caso de Uso Enviar Notificaciones](https://ucesvirtual-my.sharepoint.com/:x:/r/personal/joaquin_sangiorgi_comunidad_uces_edu_ar/_layouts/15/Doc.aspx?sourcedoc=%7B0934A969-9131-4CFF-B625-5A1E8B7448AC%7D&file=Sangiorgi_Joaquin_Escenarios_de_Casos_de_Uso.xlsx&action=default&mobileredirect=true&DefaultItemOpen=1&ct=1744670632766&wdOrigin=OFFICECOM-WEB.MAIN.REC&cid=e11bd710-0bce-4645-8fc4-0fd0a6d1dc5b&wdPreviousSessionSrc=HarmonyWeb&wdPreviousSession=317cd534-18d4-44a6-be24-b77b62035a0a)
 
