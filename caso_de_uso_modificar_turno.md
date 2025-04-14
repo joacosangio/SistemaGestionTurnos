@@ -5,4 +5,4 @@
 
 Adjunto archivo para la importación en UMLetino y link a drive con la imágen, ya que, la herramienta no guarda información mediante un link
 * [Archivo .UXF para la importación](modificar_turno.uxf)
-  [Drive con imagenes](https://drive.google.com/drive/folders/1DDw1pNLMzND-bkNgYTCiOGSOMBQcP0it?usp=sharing)
+* [Drive con imagenes](https://drive.google.com/drive/folders/1DDw1pNLMzND-bkNgYTCiOGSOMBQcP0it?usp=sharing)
