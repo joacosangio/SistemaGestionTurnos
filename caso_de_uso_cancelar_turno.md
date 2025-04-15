@@ -1,8 +1,7 @@
 # Caso de uso Cancelar Turno
 
 
-![image](https://github.com/user-attachments/assets/ba9294e3-62f4-4eca-90cb-ae91947e9b56)
-
+![image](https://github.com/user-attachments/assets/b6365891-58cd-420c-bdf4-56a0d7a70139)
 
 
 Adjunto Drive con imagenes
