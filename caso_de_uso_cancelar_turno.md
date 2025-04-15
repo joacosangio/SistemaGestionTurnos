@@ -1,6 +1,7 @@
 # Caso de uso Cancelar Turno
 
-![image](https://github.com/user-attachments/assets/567d60c1-6a9b-4c0f-bb26-51ce836a87b1)
+
+![image](https://github.com/user-attachments/assets/ba9294e3-62f4-4eca-90cb-ae91947e9b56)
 
 
 
