@@ -1,8 +1,8 @@
 # Caso de uso Cancelar Turno
 
-![image](https://github.com/user-attachments/assets/42e63679-3e3b-4945-92a4-33012939937d)
+![image](https://github.com/user-attachments/assets/567d60c1-6a9b-4c0f-bb26-51ce836a87b1)
 
 
-Adjunto archivo para la importación en UMLetino y link a drive con la imágen, ya que, la herramienta no guarda información mediante un link
-* [Archivo .UXF para la importación](cancelar_turno.uxf)
+
+Adjunto Drive con imagenes
 * [Drive con imagenes](https://drive.google.com/drive/folders/1t7-vIe5MK3cxTkfaQT2L3q8QTGhSoqAA?usp=sharing)
