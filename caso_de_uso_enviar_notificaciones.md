@@ -1,6 +1,6 @@
 # Caso de uso Enviar Notificaciones
 
-![image](https://github.com/user-attachments/assets/15ed02be-b06f-4a80-96b3-599dd4932a4a)
+![image](https://github.com/user-attachments/assets/d43a48f2-9d73-4c6d-af84-0fa9d77df8c2)
 
 
 Adjunto Drive con las imagenes
