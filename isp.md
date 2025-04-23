@@ -14,3 +14,6 @@ Supongamos que tenemos una licencia de conducir que sirva para manejar todos los
 
 ## Estructura de Clases
 
+![image](https://github.com/user-attachments/assets/ba722479-bebc-4898-bff8-d52baef4eaf6)
+
+[Drive](https://drive.google.com/file/d/1y0QJZ_8Iwn_LzOw-7VzKUB_784LMIwMN/view?usp=sharing)
