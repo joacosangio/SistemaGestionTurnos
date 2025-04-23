@@ -18,3 +18,7 @@ Un problema que tenia el sistema de gestion ded turnos, era que por ejemplo, la 
 Un ejemplo del mundo real, podria ser un adaptador universal, el cual se le puede enchufar todo tipo de cables. En este caso, la pared no sabe si estamos enchuifando un USB-C, un cable power, una lámpara, lo que sea. En este caso el adaptador sería la interfaz y todo lo que se le conceste serían el resto de implementaciones.
 
 ## Estructura de Clases
+
+![image](https://github.com/user-attachments/assets/085dcd61-6c3d-4def-b9a6-95d26964dc9d)
+
+[Drive](https://drive.google.com/file/d/1XBA-tG04-2ZhstLgoKXtJT0dKFS1moFq/view?usp=sharing)
