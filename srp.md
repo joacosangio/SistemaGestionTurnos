@@ -13,6 +13,8 @@ Es por esto que si seccionamos o separamos responsabilidades (como indica este p
 
 Un problema que enfrentaba este sistema de gestión de turnos, es que por ejemplo, habia una clase "Recepcionista" , la cual tenia muchas responsabilidades asociadas al mismo tiempo (asignar turnos, modificar turnos, cancelar turnos, imprimir comprobantes, etc.). Entonces, si por algún motivo cambia el método de asignar turnos, vamos a tener que tocar la clase "Recepcionista" aunque la lógica de imprimir comprobantes siga igual. Y esto mismo rompe el SRP porque un cambio afecta a otro sin que este último haya cambiado.
 
+También, separar responsabilidades como la autenticación del usuario y la gestión de turnos, mejorando la mantenibilidad y liberando al Paciente u otros usuarios de tantas responsabilidades.
+
 El SRP nos ayuda a solucionar esto, separando las responsabilidades en clases únicas para que se puedan modificar de manera individual sin romper nada. Por ejemplo, separamos en asignadorDeTurnos, modificadorDeTurnos, canceladorDeTurnos, etc
 
 ## Ejemplo del mundo real
@@ -20,3 +22,12 @@ El SRP nos ayuda a solucionar esto, separando las responsabilidades en clases ú
 Supongamos que en una empresa tenemos a un empleado al cual le asignaron durante el día limpiar, controlar la caja, atender a los clientes y delegar las tareas a los demás empleados. Si un día cambia la manera de atender a los clientes, el resto de procesos se va a entorpezer porque el empleado debera aprender la nueva manera, acostrumbrarse, practicar, etc. Si aplicamos el SRP en este ejemplo, la empresa deberia contratar a un gerente que delegue las tareas, a un empleado de caja que controle la caja, un empleado de atención al cliente que atienda a los clientes y por último un empleado de limpieza que se encargue de limpiar. De esta manera, se dividen las responsabilidades y no se ven afectados otros procesos que no tienen nada que ver.
 
 ## Estructura de clases
+
+Se muestra imágen del problema resuelto y un ejemplo de como se seccionan las clases correctamente para respetar este principio SOLID
+
+![image](https://github.com/user-attachments/assets/3839871f-248d-4315-8d8a-53e5515314ef)
+
+Adjunto Drive para que se pueda ampliar la imágen
+
+[Drive](https://drive.google.com/file/d/1Walh2JiimeOjuTtxmsKoA82QyhBIcv7p/view?usp=sharing)
+
