@@ -1,6 +1,8 @@
 # Principio de Responsabilidad Única (SRP)
 
-El principio de responsabilidad única (SRP) es el primer principio de SOLID. Este principio nos dice que una clase en un sistema, debe tener un solo propósito para cambiar, es decir, que debe tener una única responsabilidad. Por ejemplo, si nosotros tenemos una clase que cada vez que hay un cambio en el sistema o en algún método, tenemos que andar toqueteandola o modificandola y se rompe algo que no deberia romperse, significa que estámos violando este principio.
+En sistemas mal diseñados, suele pasar que hay clases que tienen muchas responsabilidades asignadas y eso dificulta la modificacion y escalabilidad ordenada del código.
+
+Para solucionar este problema, el principio de responsabilidad única (SRP) es el primer principio de SOLID. Este principio nos dice que una clase en un sistema, debe tener un solo propósito para cambiar, es decir, que debe tener una única responsabilidad. Por ejemplo, si nosotros tenemos una clase que cada vez que hay un cambio en el sistema o en algún método, tenemos que andar toqueteandola o modificandola y se rompe algo que no deberia romperse, significa que estámos violando este principio.
 
 Es por esto que si seccionamos o separamos responsabilidades (como indica este principio) estariamos solucionando este problema. Porque el código y las responsabilidades se vuelven más fáciles de entender y modificar sin que otras partes se vean afectadas.
 
