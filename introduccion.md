@@ -131,9 +131,10 @@ A continuación, se detallan 5 casos de uso para este proyecto
 
 A continuación, se muestra un boceto de algunas clases que podrian ser esenciales para el sistema, junto con sus atributos y algunos métodos que podrian tener los objetos.
 
-![image](https://github.com/user-attachments/assets/be6c65d3-db4f-4151-88d4-27f5377d9e92)
+![image](https://github.com/user-attachments/assets/6ba8547e-5666-42dd-9025-c5b79c42ea93)
+
 
 Adjunto Drive con las imagenes para poder ampliar.
-* [Drive](https://drive.google.com/file/d/1b3KZPsUFHf_5w7USHUkUQr0WcnlorYR7/view?usp=sharing)
+* [Drive](https://drive.google.com/file/d/1855H9sDamhv-nnz4ALVaMp17omGNvwZX/view?usp=drive_link)
 
 ***
