@@ -17,3 +17,6 @@ Imaginémosnos un tren el cual fue diseñado con locomotora y vagones todos igua
 
 ## Estructura de Clases
 
+![image](https://github.com/user-attachments/assets/f66d95ce-2039-4bc1-a055-d29bfffe8f73)
+
+[Drive](https://drive.google.com/file/d/18ty5_eAEw15F5-bvxyKHScfJWGX-SwVS/view?usp=sharing)
