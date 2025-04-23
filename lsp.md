@@ -15,3 +15,9 @@ Para resolver este problema, se pensó de una manera distinta y se creó una int
 Imaginá que en un bar te dan un vaso de vidrio para tu bebida. Ese vaso se puede reemplazar por un vaso de plástico, y todo va bien. Pero si lo reemplazan por un colador, técnicamente sigue siendo un “recipiente” para tomar una bebida, pero ya no cumple con la función esperada.
 
 Eso rompe el principio de sustitución: el objeto hijo (colador) no puede reemplazar sin problema al padre (vaso).
+
+## Estructura de Clases
+
+![image](https://github.com/user-attachments/assets/c0546376-3736-41f6-a98e-e3361158259e)
+
+[Drive](https://drive.google.com/file/d/1Na_Lvf8c5-99y-DGCL42mzKp5MrQhqP6/view?usp=sharing)
