@@ -8,7 +8,7 @@ Para solucionar este problema, el principio de sustitución de Liskov, nos dice 
 
 El problema que enfrentaba este sistema de gestión de turnos, era que desde un principio se habia creado y diseñado todos los usuarios bajo una clase padre llamada "usuario" y esa clase padre instanciaba distintos tipos de usuarios (objetos) como "recepcionista", "medico", "paciente", etc. Esto traia un problema y era que por obvias razones, el usuario del médico y del paciente no están habilitados a las mismas cosas. Entonces, habia que estar modificando la clase padre todo el tiempo y se rompian cosas o se violaba este principio de Liskov al no poder remplazar una subClase como "recepcionista" por la clase padre "usuario" sin que se rompa nada.
 
-Para resolver este problema, se pensó de una manera distinta y se crearon clases aparte para el médico, paciente, recepcionista, etc. Y de esta manera, se respeta el principio de Liskov ya que cada uno está definido y hace lo que tiene que hacer.
+Para resolver este problema, se pensó de una manera distinta y se creó una interfaz de puedeSolicitarTurno para evitar herencias inesperadas. Esto también puede usarse cuando se quiera implementar un usuarioInvitado, por ejemplo para que vea estudios de un familair pero que no pueda solicitar turnos. También estariamos respetando el principio OCP porque nos estamos expandiendo sin modificar clases extras.
 
 ## Ejemplo del mundo real
 
